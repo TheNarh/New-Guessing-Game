@@ -39,6 +39,9 @@ export default {
       } else if (guess === secretNumber.value) {
         message.value = "🎉 Correct Number.";
         document.body.style.backgroundColor = "#60b347";
+        document.querySelector(".message").textContent = "🎉 Correct Number.";
+        document.querySelector(".number").textContent = secretNumber;
+        document.querySelector(".number").style.width = "30rem";
       } else if (guess > secretNumber.value) {
         if (score.value > 1) {
           message.value = "📈 Too high!";
