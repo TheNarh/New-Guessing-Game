@@ -52,7 +52,7 @@ h1 {
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: 3px 0 #da0463;
+  text-shadow: 1.5px 0 #da0463;
 }
 
 .number {
