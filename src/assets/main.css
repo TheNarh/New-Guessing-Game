@@ -81,6 +81,7 @@ h1 {
   top: 2rem;
   left: 2rem;
   border-radius: 4px;
+  text-shadow: 3px 0 #da0463;
 }
 
 .guess {
